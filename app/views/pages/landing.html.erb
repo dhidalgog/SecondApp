@@ -1,0 +1,9 @@
+  <h1> Listado <h1>
+  <table>
+    <% @students.each do |student| %>
+      <tr>
+        <td><%= student.name %></td>
+        <td><%= student.mail %></td>
+      </tr>
+    <% end %>
+  </table>
